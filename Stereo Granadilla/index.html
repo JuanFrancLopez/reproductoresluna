@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Stereo Granadilla</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  body {
+    background-image: url("https://github.com/JuanFrancLopez/logosradios/blob/main/2147684980.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #lunaradio {
+    width: 100%;
+    height: 100%; /* Ajusta la altura según sea necesario */
+    margin-top: 0px; /* Ajusta la distancia desde arriba según sea necesario */
+  }
+</style>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/lunaradio.js"></script>
+<script src="js/lunaradio.min.js"></script>
+</head>
+
+<body>
+<div id="lunaradio"></div>
+
+<script>
+  $(document).ready(function(){
+    $("#lunaradio").lunaradio({
+      userinterface: "big",
+      backgroundcolor: "",
+      fontcolor: "#8eda26",
+      hightlightcolor: "#FDFEFE",
+      fontname: "Saira Condensed",
+      googlefont: "Saira+Condensed:wght@100",
+      fontratio: "0.3",
+      radioname: "Stereo Granadilla",
+      scroll: "true",
+      coverimage: "https://github.com/JuanFrancLopez/logosradios/blob/main/stereo%20granadilla%20imagen%20para%20luna%20caster.png?raw=true",
+      usevisualizer: "real",
+      coverstyle: "animated",
+      visualizertype: "2",
+      multicolorvisualizer: "true",
+      color1: "#8eda26",
+      color2: "#8eda26",
+      color3: "#8eda26",
+      color4: "#8eda26",
+      itunestoken: "1000lIPN",
+      metadatatechnic: "creativo-agencia-metadato",
+      ownmetadataurl: "",
+      streamurl: "http://stream.zeno.fm/4v14arby338uv",
+      streamtype: "icecast", 
+      icecastmountpoint: "/live",
+      radionomyid: "4v14arby338uv",
+      radionomyapikey: "4v14arby338uv",
+      radiozenoid: "4v14arby338uv",
+      radiojarid: "4v14arby338uv",
+      radiocoid: "4v14arby338uv",
+      shoutcastpath: "",
+      shoutcastid: "1",
+      streamsuffix: "",
+      metadatainterval: "20000",
+      volume: "100",
+      debug: "false",
+      usestreamcorsproxy: "false", 
+      corsproxy: "",
+      autoplay: "true",
+    });
+  });
+</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="3bc5e4e5245e387f3290c38f-|49" defer=""></script>
+</body>
+</html>
